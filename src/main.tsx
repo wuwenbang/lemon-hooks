@@ -1,10 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TestUseAsyncEffect from 'src/components/TestUseAsyncEffect';
+import TestUseUpdateEffect from 'src/components/TestUseUpdateEffect';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    {/* <TestUseAsyncEffect /> */}
+    {/* <TestUseUpdateEffect /> */}
+  </>,
   document.getElementById('root')
 );
