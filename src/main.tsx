@@ -5,6 +5,7 @@ import TestuseLocalStorageState from './components/TestUseLocalStorage';
 import TestUseDebounce from './components/TestUseDebounce';
 import TestUseHover from './components/TestUseHover';
 import TestUseToggle from './components/TestUseToggle';
+import TestUsePrevious from './components/TestUsePrevious';
 
 ReactDOM.render(
   <>
@@ -13,7 +14,8 @@ ReactDOM.render(
     {/* <TestuseLocalStorageState /> */}
     {/* <TestUseDebounce /> */}
     {/* <TestUseHover /> */}
-    <TestUseToggle />
+    {/* <TestUseToggle /> */}
+    <TestUsePrevious />
   </>,
   document.getElementById('root')
 );
