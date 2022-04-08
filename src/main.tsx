@@ -6,6 +6,8 @@ import TestUseDebounce from './components/TestUseDebounce';
 import TestUseHover from './components/TestUseHover';
 import TestUseToggle from './components/TestUseToggle';
 import TestUsePrevious from './components/TestUsePrevious';
+import TestUseMount from './components/TestUseMount';
+import TestUseUnmount from './components/TestUseUnmount';
 
 ReactDOM.render(
   <>
@@ -15,7 +17,9 @@ ReactDOM.render(
     {/* <TestUseDebounce /> */}
     {/* <TestUseHover /> */}
     {/* <TestUseToggle /> */}
-    <TestUsePrevious />
+    {/* <TestUsePrevious /> */}
+    {/* <TestUseMount /> */}
+    <TestUseUnmount />
   </>,
   document.getElementById('root')
 );
