@@ -8,6 +8,7 @@ import TestUseToggle from './components/TestUseToggle';
 import TestUsePrevious from './components/TestUsePrevious';
 import TestUseMount from './components/TestUseMount';
 import TestUseUnmount from './components/TestUseUnmount';
+import TestUseWindowSize from './components/TestUseWindowSize';
 
 ReactDOM.render(
   <>
@@ -19,7 +20,8 @@ ReactDOM.render(
     {/* <TestUseToggle /> */}
     {/* <TestUsePrevious /> */}
     {/* <TestUseMount /> */}
-    <TestUseUnmount />
+    {/* <TestUseUnmount /> */}
+    <TestUseWindowSize />
   </>,
   document.getElementById('root')
 );
