@@ -9,6 +9,7 @@ import TestUsePrevious from './components/TestUsePrevious';
 import TestUseMount from './components/TestUseMount';
 import TestUseUnmount from './components/TestUseUnmount';
 import TestUseWindowSize from './components/TestUseWindowSize';
+import TestUseScroll from './components/TestUseScroll';
 
 ReactDOM.render(
   <>
@@ -21,7 +22,8 @@ ReactDOM.render(
     {/* <TestUsePrevious /> */}
     {/* <TestUseMount /> */}
     {/* <TestUseUnmount /> */}
-    <TestUseWindowSize />
+    {/* <TestUseWindowSize /> */}
+    <TestUseScroll />
   </>,
   document.getElementById('root')
 );
